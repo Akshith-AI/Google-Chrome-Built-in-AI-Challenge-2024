@@ -15,10 +15,10 @@ Backend: Node.js
 # Installation & Setup
 1, Clone or Download the Repository to your local machine.  
 
-2, Install the Gemani Nano API:  
+2, Install the Gemini Nano API:  
 
-    * If you don't already have the Gemani Nano API, you'll need to obtain it and add it to the server.js file. 
-    * Link to Gemani API (https://ai.google.dev/gemini-api/docs)
+    * If you don't already have the Gemini Nano API, you'll need to obtain it and add it to the server.js file. 
+    * Link to Gemini API (https://ai.google.dev/gemini-api/docs)
 3, Install Dependencies:  
 
     * Navigate to the project folder in your terminal or command prompt.
