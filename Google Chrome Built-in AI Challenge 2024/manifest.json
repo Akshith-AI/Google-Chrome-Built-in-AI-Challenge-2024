@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ClipFlow",
+    "version": "4.0",
+    "description": "Google Chrome Built-in AI Challenge",
+    "permissions": ["contextMenus", "storage", "activeTab", "scripting","http://localhost:3000/"],
+    "icons": {
+    "16": "icons/16.png",   
+    "48": "icons/48.png",   
+    "128": "icons/128.png"
+  },
+    "action": {
+      "default_popup": "main.html",
+      "default_icon": "icons/icons.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "http://localhost:3000/" 
+    ]
+  }
